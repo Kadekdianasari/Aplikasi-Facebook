@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Facebook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_activity">Ini adalah menu activity</string>
+    <string name="this_fragment">Ini adalah menu fragment</string>
+    <string name="search">Search</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="search_hint">Cari teman</string>
+    <string name="add" />
+    <string name="profil">Nama : Kadek Diana Sari</string>
+    <string name="email">Email : kadekdianasari331@gmail.com</string>
+    <string name="status">Status : Lajang</string>
+    <string name="Postingan">Gita Febriani211 "Gue kek gentong"</string>
+    <string name="post">POSTINGAN</string>
+    <string name="Privasi">Privasi</string> />
+    <string name="Keamanan">Keamanan</string>
+    />
+    />
+
+</resources>

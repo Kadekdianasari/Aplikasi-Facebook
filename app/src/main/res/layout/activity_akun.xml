@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkunActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/me" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="@string/profil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_below="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_below="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/status"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
